@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Filmes</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>Listar Filmes do Banco de Dados Por Gênero</h1>
+    <label for="cars">Escolha um Gênero</label>
+
+  <form method="POST">
+    <select name="genero">
+      <option value="Comédia">Comédia</option>
+      <option value="Ação">Ação</option>
+    </select>
+    <button type="submit">Enviar</button>
+  </form>
+</select>
   </body>
 </html>
