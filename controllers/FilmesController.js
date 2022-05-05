@@ -6,9 +6,6 @@ module.exports = {
         const filme = await Filme.create({name, genero})
         return res.json(filme)
     },
-    view:(req,res)=>{
-        res.render('filmes',{filmes})
-    }
 }
 
  
